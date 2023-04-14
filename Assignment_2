@@ -1,1 +1,25 @@
 
+(a)
+
+This code first sets a seed for reproducibility using np.random.seed(). It then loads the diabetes data into a Pandas dataframe and takes
+a random sample of 25 observations using sample(). The mean and maximum glucose levels for the sample and population are then 
+calculated using mean() and max() methods. Finally two bar charts are created using matplotlib to compare 
+the sample and population means and maximums. The show() method is used to display the charts.
+
+
+(b)
+
+This code first sets the reproducibility seed with np.random.seed() . Next, we load the diabetes data into a Pandas dataframe 
+and use sample() to get a random sample of 25 observations. The 98th percentile of BMI is then calculated for both the sample and 
+the population using np.percentile(). Finally, I create a bar chart using matplotlib to compare the 
+98th percentile of his BMI for the sample and the population and display the chart using the show() method. 
+
+(c)
+
+This code first sets the reproducibility seed with np.random.seed() . Then load the diabetes data into a Pandas dataframe. 
+Define a bootstrap_sample() function to replace and bootstrap samples every 150 observations. 
+Then use a for loop to create 500 bootstrap samples of BloodPressure and use mean(), std() and np.percentile() to find the mean, 
+standard deviation and 75th percentile for each sample to calculate Each statistic result is saved in a separate list. 
+Then use the same method to calculate the population mean, standard deviation, and 75th percentile of blood pressure.
+Finally, use matplotlib to create three bar charts comparing sample and population statistics for blood pressure mean, 
+standard deviation, and 75th percentile. The show() method is used to display the graph. 
